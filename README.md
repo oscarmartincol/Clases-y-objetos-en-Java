@@ -34,7 +34,7 @@ objetos y sus características más importantes. A continuación se describe má
 
 ## Clase Fruit
 
-*Esta clase representa un objeto de tipo fruta con sus características.
+*Esta clase representa un objeto de tipo fruta con sus características.*
 
 ### Contenido de la clase Fruit:
 
@@ -57,3 +57,20 @@ objetos y sus características más importantes. A continuación se describe má
 - **void setColor(String color):** *Método para agregar un color al ArrayList colors.*
   
 - **ArrayList <String> getColors():** *Método para acceder a la lista de colores almacenados en el ArrayList colors.*
+
+## Clase BankAccount
+
+*Representa la cuenta de un banco con sus características.*
+
+### Contenido de la clase BankAccount:
+
+- **accountNumber:** *Variable de tipo int donde se almacena la propiedad número de cuenta.*
+
+- **activated:** *Variable de tipo boolean que expresa si la cuenta esta activa o no lo está.*
+
+- **BankAccount(int accountNumber):** *Constructor que instancia una cuenta definiendo su número asignado.*
+
+- **void setActived(boolean actived):** *Método para definir la activación o desactivación de la cuenta.*
+
+- **boolean getActived():** *Método para verificar el estado de la cuenta.*
+
