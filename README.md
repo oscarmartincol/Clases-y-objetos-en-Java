@@ -133,3 +133,34 @@ objetos y sus características más importantes. A continuación se describe má
  - **void setPowerConsumption(float powerConsumption)** *Método que recibe como parámetro un número de tipo flotante que describe el consumo de energía de la nevera y lo almacena en la variable powerConsumption.*
  
  - **float getPowerConsumption()** *Método que permite el acceso al valor almacenado en la variable powerConsumption desde el exterior de la clase.*
+
+ ## Clase Laptop
+ 
+ *Representa una laptop con las caraterísticas que la identifican.*
+ 
+ ### Contenido de la clase Laptop:
+ 
+ - **brand:** *Es una variable de tipo cadena de texto que representa la marca del fabricante.*
+ 
+ - **storageCapacity:** *Es una variable de tipo cadena de texto que representa la cantidad de almacenamiento que tiene la laptop.*
+ 
+ - **operatingSystem:** *Es una variable que almacena una cadena de texto con el sistema operativo del equipo.*
+ 
+ - **processorCores:** *Es una variable de tipo entero que describe el número de núcleos que tiene el procesador de la laptop.*
+ 
+ - **screenInches** *Es una variable de tipo flotante que describe el tamaño de la pantalla de la laptop en pulgadas.*
+ 
+ - **Laptop(String brand, String operatingSystem):** *Constructor que permite crear instancias de la clase Laptop y recibe dos parámetros de cadena de texto con la marca y el sistema operativo del equipo, para asignarlos a las variables brand y operatingSystem.*
+ 
+ - **void setProcessorCores(int processorCores):** *Método que recibe un parámetro de tipo entero con la cantidad de núcleos del procesador y lo asigna a la variable processorCores.*
+ 
+ - **int getProcessorCores():** *Método que permite el acceso al valor de la variable processorCores desde el exterior de la clase.*
+ 
+ - **void setSterageCapacity(String storageCapacity):** *Método que recibe un parámetro de tipo cadena de texto que describe la cantidad de almacenamiento que tiene el equipo.*
+ 
+ - **String getStorageCapacity():** *Método que permite el acceso al valor de la variable storageCapacity desde el exterior de la clase.*
+ 
+ - **void setScreenInches(float inches):** *Método que recibe un parámetro con un número de tipo flotante que representa el tamaño de la pantalla en pulgadas.*
+ 
+ - **float getScreenInches():** *Método que permite el acceso al valor de la variable screenInches desde el esterior de la clase.*
+ 
