@@ -97,3 +97,39 @@ objetos y sus características más importantes. A continuación se describe má
 - **void setCarryingCapacity(float carryingCapacity):** *Método que recibe el parámetro capacidad de carga y se lo asigna a la variable carryingCapacity.*
 
 - **float getCarryingCapacity():** *Método que permite el acceso a la variable carryingCapacity desde el exterior de la clase.*
+
+ ## Clase Fridge
+ 
+ *Representa una nevera con las características que la identifican.*
+ 
+ ### Contenido de la clase Fridge:
+ 
+ - **brand:** *Variable de tipo cadena de texto que representa la propiedad marca de la nevera.*
+ 
+ - **doorsNumber:** *Variable de tipo entero que describe el número de puertas que tiene la nevera.*
+ 
+ - **color:** *Variable de tipo cadena de texto que contiene el color de la nevera.*
+ 
+ - **litersStorage:** *Variable de tipo entero que describe la capacidad de almacenamiento en litros de la nevera.*
+ 
+ - **powerConsumption:** *Variable que representa el consumo eléctrico minimo de la nevera.*
+ 
+ - **void setColor(String color):** *Método que recibe como parámetro el color de la nevera y lo asigna a la variable color.*
+ 
+ - **String getColor():** *Método que permite el acceso al valor de la variable color desde el exterior de la clase.*
+ 
+ - **void setBrand(String brand):** *Método que recibe como parámetro una cadena de texto con la marca de la nevera y la asigna a la variable brand.*
+ 
+ - **Sting getBrand():** *Método que permite el acceso al valor de la variable brand desde el exterior de la clase.*
+ 
+ - **void setDoorsNumber(int doorsNumber):** *Método que recibe como parámetro un entero con el número de puertas de la nevera y se lo asigna a la variable doorsNumber.*
+ 
+ - **Int getDoorsNumber():** *Método que permite el acceso al valor de la variable doorsNumber desde el exterior de la clase.*
+ 
+ - **void setLitersStorage(int litersStorage):** *Método que recibe como parámetro un entero con la capacidad de almacenamiento en litros de la nevera y se lo asigna a la variable litersStorage.*
+ 
+ - **int getLitersStorage()** *Método que permite el acceso al valor de la variable litersStorage desde el exterior de la clase.*
+ 
+ - **void setPowerConsumption(float powerConsumption)** *Método que recibe como parámetro un número de tipo flotante que describe el consumo de energía de la nevera y lo almacena en la variable powerConsumption.*
+ 
+ - **float getPowerConsumption()** *Método que permite el acceso al valor almacenado en la variable powerConsumption desde el exterior de la clase.*
