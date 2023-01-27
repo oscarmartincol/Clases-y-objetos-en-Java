@@ -74,3 +74,26 @@ objetos y sus características más importantes. A continuación se describe má
 
 - **boolean getActived():** *Método para verificar el estado de la cuenta.*
 
+## Clase Airplane
+
+*Representa al objeto avión con algunas características que lo identifican.*
+
+### Contenido de la clase Airplane:
+
+- **motorsNumber:** *Es una variable de tipo entero que representa el número de motores que tiene el objeto avión.*
+
+- **fuelCapacity:** *Esta variable es de tipo flotante y representa la capacidad de almacenamiento de combustible que tiene el avión.*
+
+- **brand:** *Es una variable de tipo cadena de texto, la cual representa la marca del fabricante.*
+
+- **carryingCapacity** *Es una variable de tipo flotante que representa la capacidad que tiene el avión para transportar carga.*
+
+- **Airplane(String brand, int motorsNumber)** *Constructor que crea una instancia del objeto Airplane, recibe los parámetros de marca y número de motores y los asigna a las variables de brand y motorsNumber respectivamente.*
+
+- **void setFuelCapacity(float fuelCapacity):** *Método que recibe el parámetro con la capacidad de combustible y lo asigna a la variable fuelCapacity.*
+
+- **float getFuelCapacity:** *Método que permite acceder al valor de la variable fuelCapacity desde el exterior de la clase.*
+
+- **void setCarryingCapacity(float carryingCapacity):** *Método que recibe el parámetro capacidad de carga y se lo asigna a la variable carryingCapacity.*
+
+- **float getCarryingCapacity():** *Método que permite el acceso a la variable carryingCapacity desde el exterior de la clase.*
